@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Datasets and generated experiment artifacts are intentionally excluded.
+data/
+outputs/
+simulation/
+checkpoints/
+logs/
+*.pkl
+*.pt
+*.npz
+
+# Local environments and editors.
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
